@@ -33,4 +33,3 @@ registerForm.addEventListener("submit" ,function (event) {
     console.log("password:",password)
    
 });
-

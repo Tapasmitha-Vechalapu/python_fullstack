@@ -28,3 +28,18 @@ function greetStudent(name){
     console.log("hello"+name+"welcome to nriit learning management system")
 }
 greetStudent(student_name)
+function square(number) {
+    return number * number;
+}
+
+console.log(square(5));  
+function checkOddEven(number) {
+  if (number % 2 === 0) {
+    return "Even";
+  } else {
+    return "Odd";
+  }
+}
+console.log(checkOddEven(10));
+console.log(checkOddEven(7)); 
+//write a code all are the even number 
