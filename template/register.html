@@ -4,13 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{{url_for ('static , filename='css/style.css'}}">
     <title>Register Page</title>
 </head>
 
 <body>
-    <header>Register</header>
-    <main>
+    <main>s
         <h2>Student Registration</h2>
         <form id="registerForm">
             <label for=""> full Name</label><br>
@@ -37,7 +36,7 @@
 
         </form>
     </main>
-    <script src="js/script.js"></script>
+    <script src="{{url_for('static',filename='js/script.js'}}"></script>
 </body>
 
 </html>
