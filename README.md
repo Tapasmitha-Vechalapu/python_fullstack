@@ -11,3 +11,9 @@ venv :
 . env/bin/activate
 windows : env\Script\activated --- windows direct  vs code 
 goto the sources control change click on + button next click on change then click on + button goto sereach bar then type the anyone of the commit and then click commite 
+
+
+
+check your env activate
+no such file director
+
