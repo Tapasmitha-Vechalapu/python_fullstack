@@ -27,7 +27,17 @@ def register():
         gender=request.form["gender"]
         courses=request.form["courses"]
         return render_template("register.html")            
+@app.route("/login", methods=["GET", "POST"])  # ✅ Correct
+def login():
+    data = request.get_json()
+    email = data.get("email")
+    password = data.get("password")
 
+    user = user_db.get(email)
+    if user and user.get("password")==password:
+        return jsonify({"status":"success","message":"loginsuccessfull! Welcome"})
+    else:
+        return jsonify({"status":"error","message": "invalid email or password!"}),401    
 
 if __name__ == '__main__':
     app.run(debug=True)
