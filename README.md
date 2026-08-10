@@ -19,3 +19,9 @@ no such file director
 
 
 github.com/SirramMuru
+python -m venv env
+if env is not in your folder
+.env/bin/activate
+pip install flask
+python3 app.py
+
