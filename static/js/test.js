@@ -49,4 +49,7 @@ function checkOddEven(num) {
         return "Odd";
     }
 }
-console.log("Check if 7 is odd or even: ", checkOddEven(7));
+console.log("Check if 7 is odd or even: ", checkOddEven(7)); 
+
+
+
